@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api/login"
+const API = "https://cursoswebonline.vercel.app/api/login"
 const form = document.getElementById("loginForm")
 const errorMessage = document.getElementById("errorMessage")
 const successMessage = document.getElementById("successMessage")
