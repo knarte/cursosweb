@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Cursos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Dashboard de Cursos</h1>
+
+<div class="container">
+  <h2>Crear Nuevo Curso</h2>
+  <form id="courseForm">
+    <input name="title" placeholder="Título del curso" required>
+    <input name="description" placeholder="Descripción" required>
+    <input name="instructor" placeholder="Instructor" required>
+    <button type="submit">➕ Crear Curso</button>
+  </form>
+</div>
+
+<div id="courses"></div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
