@@ -1,4 +1,4 @@
-const API = "https://cursosweb-ten.vercel.app//api/register"
+const API = "https://cursosweb-ten.vercel.app/api/register"
 const form = document.getElementById("registerForm")
 const errorMessage = document.getElementById("errorMessage")
 const successMessage = document.getElementById("successMessage")
@@ -133,9 +133,9 @@ form.addEventListener("submit", async e => {
         })
 
         const result = await res.json()
-
-        if (res.ok && result.token) {
-            localStorage.setItem("token", result.token)
+console.log("Respuesta del servidor:", result)
+        if (res.ok && result.createdAt) {
+            localStorage.setItem("createdAt", result.createdAt)
             showMessage(successMessage, '¡Cuenta creada exitosamente! Redirigiendo...', 'success')
 
             setTimeout(() => {
