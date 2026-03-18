@@ -1,4 +1,4 @@
-const API = "https://cursoswebonline.vercel.app/api/register"
+const API = "https://cursosweb-ten.vercel.app//api/register"
 const form = document.getElementById("registerForm")
 const errorMessage = document.getElementById("errorMessage")
 const successMessage = document.getElementById("successMessage")

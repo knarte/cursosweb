@@ -1,4 +1,4 @@
-const API = "https://cursoswebonline.vercel.app/api/courses"
+const API = "https://cursosweb-ten.vercel.app/api/courses"
 
 const token = localStorage.getItem("token")
 
